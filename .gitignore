@@ -1,0 +1,21 @@
+# ---- Machine-generated / private data (do not commit) ----
+# Registry snapshots & backups (regenerate anytime: app\Win10-Taskbar-Tweak.ps1 -Backup)
+backup/
+snapshot.json
+*.reg.bak
+
+# Runtime state files (menu display, machine-specific)
+state.json
+
+# Start-menu layout exports / logs / staging (machine-specific)
+app/StartMenu/work/
+
+# ---- Tooling / editor / OS ----
+.mimosa/
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

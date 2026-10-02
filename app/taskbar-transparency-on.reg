@@ -1,0 +1,8 @@
+﻿Windows Registry Editor Version 5.00
+
+; 开启系统原生「透明效果」(Settings > 个性化 > 颜色 > 透明效果)
+; 只写 HKCU，不需要管理员。生效范围：开始菜单 / 任务栏 / 操作中心。
+; 还原请看 taskbar-transparency-off.reg，或用脚本 -Backup 导出的备份。
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize]
+"EnableTransparency"=dword:00000001
